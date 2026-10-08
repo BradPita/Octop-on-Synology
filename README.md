@@ -51,7 +51,6 @@
 - 9. 运维速查：日常 / 升级 / 备份 / 卸载
 - 10. 常见问题（FAQ）
 - 11. 参考链接（官方）
-- 12. 建仓库时的元信息（About / Topics / License）
 
 ---
 
@@ -396,15 +395,6 @@ rm -rf /volume1/docker/octop                # 彻底删数据（先备份！）
 升级    :  pull 新标签 → 重建容器（数据在 volume 里）
 备份    :  停容器 → tar 整个数据目录
 ```
-
----
-
-## 12. 建仓库时的元信息（About / Topics / License 照抄即可）
-
-- **仓库名**：`octop-on-synology`
-- **About**：在群晖 Synology NAS 上用 Docker 部署腾讯 Octop 的分步安装指南（Compose / CLI，ghcr 官方镜像）
-- **Topics**：`octop`、`docker`、`synology`、`nas`、`群晖`、`self-hosted`、`ghcr`、`compose`、`ai-assistant`、`multi-agent`、`tutorial`、`安装指南`
-- **License**：建议选 MIT（与 Octop 本体一致，引用其中命令片段也合适）
 
 ---
 
